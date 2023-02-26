@@ -1,0 +1,250 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #202124;
+}
+
+main{
+    min-height: 900px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container{
+    max-width: 1250px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.sections{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sections a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.active_section{
+    border-bottom: #202124 solid 3px;
+}
+
+.sections a:hover{
+    cursor: pointer;
+}
+
+.section_title{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.slides_show{
+    overflow: hidden;
+    display: flex;
+}
+
+.slides{
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.slides img{
+    margin-right: 30px;
+    height: 600px;
+    width: 1100px;
+    border-radius: 20px;
+}
+
+.slider_buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1220px;
+    top: calc(50% - 0px);
+    padding: 10px;
+}
+
+.slider_button-left{
+    outline: none;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #202124;
+    border: none;
+    left: calc(24%);
+}
+
+.slider_button-right{
+    outline: none;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #202124;
+    border: none;
+    right: calc(24%);
+}
+
+.slider_button-left:hover{
+    cursor: pointer;
+}
+
+.slider_button-right:hover{
+    cursor: pointer;
+}
+
+.films_list_title{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.films_list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.film_card{
+    margin-top: 15px;
+    max-width: 400px;
+    margin-right: 30px;
+}
+
+.image_block{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.film_card img{
+    width: 400px;
+    height: 230px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.film_card img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.searchbar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .searchbar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+  
+  .searchbar-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+  }
+  
+  .searchbar-left {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-icon-wrapper {
+    margin: auto;
+  }
+  
+  .search-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+  }
+  
+  .searchbar-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .searchbar-center {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .searchbar-input-spacer {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+  }
+  
+  .searchbar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  .searchbar-right {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+  }
+  
+  .searchbar-clear-icon {
+    margin-right: 12px
+  }
